@@ -38,7 +38,6 @@ end
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
-matrix[row][column][new_value] = "Tiny Ewell"
-  matrix[row][column][new_value]
+matrix[1][0][new_value] = "Tiny Ewell"
   matrix_update()
 end
